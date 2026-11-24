@@ -1259,6 +1259,9 @@ task filterCnvs {
       --sample_name ~{sampleName} \
       --out_directory CNV_figures
     CONTAINER
+
+    # Outputs at the top of the task directory, so they are saved without a subdirectory
+    mv CNV_figures/* .
   >>>
 
   runtime {
@@ -1270,10 +1273,10 @@ task filterCnvs {
 
   output {
     File filteredCnvBed = filteredBed
-    File coveragePlot = "CNV_figures/~{sampleName}.CNV.coverage.jpeg"
-    File dupDelPlot = "CNV_figures/~{sampleName}.dup_del.calls.jpeg"
-    File copyNumberPlot = "CNV_figures/~{sampleName}.CNV.calls.jpeg"
-    File neutralAfPlot = "CNV_figures/~{pileupBase}.freq.SNP.neutral.hist.jpeg"
-    File neutralAfBed = "CNV_figures/~{pileupBase}.freq.SNP.neutral.bed"
+    File coveragePlot = "~{sampleName}.CNV.coverage.jpeg"
+    File dupDelPlot = "~{sampleName}.dup_del.calls.jpeg"
+    File copyNumberPlot = "~{sampleName}.CNV.calls.jpeg"
+    File neutralAfPlot = "~{pileupBase}.freq.SNP.neutral.hist.jpeg"
+    File neutralAfBed = "~{pileupBase}.freq.SNP.neutral.bed"
   }
 }

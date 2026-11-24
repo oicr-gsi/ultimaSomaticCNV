@@ -659,6 +659,9 @@ This section lists command(s) run by ultimaSomaticCNV workflow
       --sample_name ~{sampleName} \
       --out_directory CNV_figures
     CONTAINER
+
+    # Outputs at the top of the task directory, so they are saved without a subdirectory
+    mv CNV_figures/* .
 ```
 
 ## Support
