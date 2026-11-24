@@ -1,0 +1,260 @@
+[
+    {
+        "arguments": {
+            "ultimaSomaticCNV.annotateCnvs.cores": null,
+            "ultimaSomaticCNV.annotateCnvs.gainCutoff": null,
+            "ultimaSomaticCNV.annotateCnvs.intersectionCutoff": null,
+            "ultimaSomaticCNV.annotateCnvs.jobMemory": null,
+            "ultimaSomaticCNV.annotateCnvs.lossCutoff": null,
+            "ultimaSomaticCNV.annotateCnvs.minCnvLength": null,
+            "ultimaSomaticCNV.annotateCnvs.modules": null,
+            "ultimaSomaticCNV.annotateCnvs.timeout": null,
+            "ultimaSomaticCNV.chromosomes": [
+                "chr19"
+            ],
+            "ultimaSomaticCNV.filterCnvs.cores": null,
+            "ultimaSomaticCNV.filterCnvs.jobMemory": null,
+            "ultimaSomaticCNV.filterCnvs.modules": null,
+            "ultimaSomaticCNV.filterCnvs.timeout": null,
+            "ultimaSomaticCNV.highSensitivityMode": null,
+            "ultimaSomaticCNV.minMapq": null,
+            "ultimaSomaticCNV.normalConcatCoverage.cores": null,
+            "ultimaSomaticCNV.normalConcatCoverage.jobMemory": null,
+            "ultimaSomaticCNV.normalConcatCoverage.modules": null,
+            "ultimaSomaticCNV.normalConcatCoverage.timeout": null,
+            "ultimaSomaticCNV.normalConcatPileups.cores": null,
+            "ultimaSomaticCNV.normalConcatPileups.jobMemory": null,
+            "ultimaSomaticCNV.normalConcatPileups.modules": null,
+            "ultimaSomaticCNV.normalConcatPileups.timeout": null,
+            "ultimaSomaticCNV.normalCoverage.cores": null,
+            "ultimaSomaticCNV.normalCoverage.jobMemory": null,
+            "ultimaSomaticCNV.normalCoverage.modules": null,
+            "ultimaSomaticCNV.normalCoverage.timeout": null,
+            "ultimaSomaticCNV.normalCpn.cores": null,
+            "ultimaSomaticCNV.normalCpn.jobMemory": null,
+            "ultimaSomaticCNV.normalCpn.modules": null,
+            "ultimaSomaticCNV.normalCpn.timeout": null,
+            "ultimaSomaticCNV.normalCramIndexes": [
+                {
+                    "contents": {
+                        "configuration": "/.mounts/labs/gsi/testdata/ultimaSomaticCNV/test_data/013270-Lb1051-UGAv3-13-CTGATCAGTGGCGAT.chr19.s0.25.cram.crai",
+                        "externalIds": [
+                            {
+                                "id": "TEST",
+                                "provider": "TEST"
+                            }
+                        ]
+                    },
+                    "type": "EXTERNAL"
+                }
+            ],
+            "ultimaSomaticCNV.normalCrams": [
+                {
+                    "contents": {
+                        "configuration": "/.mounts/labs/gsi/testdata/ultimaSomaticCNV/test_data/013270-Lb1051-UGAv3-13-CTGATCAGTGGCGAT.chr19.s0.25.cram",
+                        "externalIds": [
+                            {
+                                "id": "TEST",
+                                "provider": "TEST"
+                            }
+                        ]
+                    },
+                    "type": "EXTERNAL"
+                }
+            ],
+            "ultimaSomaticCNV.normalMpileup.cores": null,
+            "ultimaSomaticCNV.normalMpileup.jobMemory": null,
+            "ultimaSomaticCNV.normalMpileup.maxDepth": null,
+            "ultimaSomaticCNV.normalMpileup.minBaseQuality": null,
+            "ultimaSomaticCNV.normalMpileup.modules": null,
+            "ultimaSomaticCNV.normalMpileup.timeout": null,
+            "ultimaSomaticCNV.numShards": 10,
+            "ultimaSomaticCNV.outputFileNamePrefix": "ultimaSomaticCNV_chr19",
+            "ultimaSomaticCNV.prepareRegions.cores": null,
+            "ultimaSomaticCNV.prepareRegions.jobMemory": null,
+            "ultimaSomaticCNV.prepareRegions.modules": null,
+            "ultimaSomaticCNV.prepareRegions.timeout": null,
+            "ultimaSomaticCNV.reference": null,
+            "ultimaSomaticCNV.runControlFreec.bedGraphOutput": null,
+            "ultimaSomaticCNV.runControlFreec.contaminationAdjustment": null,
+            "ultimaSomaticCNV.runControlFreec.contaminationFraction": null,
+            "ultimaSomaticCNV.runControlFreec.cores": null,
+            "ultimaSomaticCNV.runControlFreec.degree": null,
+            "ultimaSomaticCNV.runControlFreec.forceGcContentNormalization": null,
+            "ultimaSomaticCNV.runControlFreec.jobMemory": null,
+            "ultimaSomaticCNV.runControlFreec.modules": null,
+            "ultimaSomaticCNV.runControlFreec.naiveNormalization": null,
+            "ultimaSomaticCNV.runControlFreec.ploidy": null,
+            "ultimaSomaticCNV.runControlFreec.timeout": null,
+            "ultimaSomaticCNV.runControlFreec.window": null,
+            "ultimaSomaticCNV.scatterIntervals.cores": null,
+            "ultimaSomaticCNV.scatterIntervals.jobMemory": null,
+            "ultimaSomaticCNV.scatterIntervals.modules": null,
+            "ultimaSomaticCNV.scatterIntervals.timeout": null,
+            "ultimaSomaticCNV.scatterIntervalsBreak": null,
+            "ultimaSomaticCNV.sex": null,
+            "ultimaSomaticCNV.tumorConcatCoverage.cores": null,
+            "ultimaSomaticCNV.tumorConcatCoverage.jobMemory": null,
+            "ultimaSomaticCNV.tumorConcatCoverage.modules": null,
+            "ultimaSomaticCNV.tumorConcatCoverage.timeout": null,
+            "ultimaSomaticCNV.tumorConcatPileups.cores": null,
+            "ultimaSomaticCNV.tumorConcatPileups.jobMemory": null,
+            "ultimaSomaticCNV.tumorConcatPileups.modules": null,
+            "ultimaSomaticCNV.tumorConcatPileups.timeout": null,
+            "ultimaSomaticCNV.tumorCoverage.cores": null,
+            "ultimaSomaticCNV.tumorCoverage.jobMemory": null,
+            "ultimaSomaticCNV.tumorCoverage.modules": null,
+            "ultimaSomaticCNV.tumorCoverage.timeout": null,
+            "ultimaSomaticCNV.tumorCpn.cores": null,
+            "ultimaSomaticCNV.tumorCpn.jobMemory": null,
+            "ultimaSomaticCNV.tumorCpn.modules": null,
+            "ultimaSomaticCNV.tumorCpn.timeout": null,
+            "ultimaSomaticCNV.tumorCramIndexes": [
+                {
+                    "contents": {
+                        "configuration": "/.mounts/labs/gsi/testdata/ultimaSomaticCNV/test_data/013270-Lb1050-UGAv3-5-CATCCTGTGCGCATGAT.chr19.s0.25.cram.crai",
+                        "externalIds": [
+                            {
+                                "id": "TEST",
+                                "provider": "TEST"
+                            }
+                        ]
+                    },
+                    "type": "EXTERNAL"
+                }
+            ],
+            "ultimaSomaticCNV.tumorCrams": [
+                {
+                    "contents": {
+                        "configuration": "/.mounts/labs/gsi/testdata/ultimaSomaticCNV/test_data/013270-Lb1050-UGAv3-5-CATCCTGTGCGCATGAT.chr19.s0.25.cram",
+                        "externalIds": [
+                            {
+                                "id": "TEST",
+                                "provider": "TEST"
+                            }
+                        ]
+                    },
+                    "type": "EXTERNAL"
+                }
+            ],
+            "ultimaSomaticCNV.tumorMpileup.cores": null,
+            "ultimaSomaticCNV.tumorMpileup.jobMemory": null,
+            "ultimaSomaticCNV.tumorMpileup.maxDepth": null,
+            "ultimaSomaticCNV.tumorMpileup.minBaseQuality": null,
+            "ultimaSomaticCNV.tumorMpileup.modules": null,
+            "ultimaSomaticCNV.tumorMpileup.timeout": null
+        },
+        "description": "ultimaSomaticCNV chr19: Ultima HCC1395 tumor/normal test pair, chr19 only",
+        "engineArguments": {
+            "write_to_cache": false,
+            "read_from_cache": false
+        },
+        "id": "ultimaSomaticCNV_chr19",
+        "metadata": {
+            "ultimaSomaticCNV.cnvVcf": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.cnvVcfIndex": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.cnvBed": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.filteredCnvBed": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.segments": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.freecInfo": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.ratioBedGraph": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.coveragePlot": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.dupDelPlot": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.copyNumberPlot": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.neutralAfPlot": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            },
+            "ultimaSomaticCNV.neutralAfBed": {
+                "contents": [
+                    {
+                        "outputDirectory": "@SCRATCH@/@DATE@_Workflow_ultimaSomaticCNV_chr19_@JENKINSID@"
+                    }
+                ],
+                "type": "ALL"
+            }
+        },
+        "validators": [
+            {
+                "metrics_calculate": "@CHECKOUT@/tests/calculate.sh",
+                "metrics_compare": "@CHECKOUT@/tests/compare.sh",
+                "output_metrics": "/.mounts/labs/gsi/testdata/ultimaSomaticCNV/output_metrics/workflow_chr19.metrics",
+                "type": "script"
+            }
+        ]
+    }
+]
